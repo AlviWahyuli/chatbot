@@ -1,0 +1,115 @@
+/* Styling khusus untuk Section 1 */
+#section1 {
+    background-color: #f0f4f8; /* Latar belakang lebih terang */
+    min-height: 100vh; /* Mengisi seluruh tinggi viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Logo Chatbot */
+.chatbot-logo {
+    max-width: 350px;
+}
+
+/* Mengurangi ukuran logo pada tampilan mobile */
+@media (max-width: 767.98px) {
+    .chatbot-logo {
+        max-width: 120px;
+        transform: scale(0.8);
+    }
+}
+
+.chat-container {
+    border: 1px solid #ccc; /* Warna border lebih lembut */
+    border-radius: 8px; /* Membulatkan sudut lebih banyak */
+    background-color: #fff; /* Warna latar belakang */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+
+@media (max-width: 767.98px) {
+    .chat-container {
+        height: 300px;
+    }
+}
+
+.chat-header {
+    background-color: #007bff; /* Warna header */
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px; /* Sesuaikan radius sudut */
+    border-top-right-radius: 8px;
+}
+
+.chat-input {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.chat-input button {
+    width: 100%;
+}
+
+/* Styling Pesan Chat */
+.chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #e9ecef; /* Warna latar belakang pesan */
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.chat-message.user {
+    text-align: right;
+}
+
+.chat-message.bot {
+    text-align: left;
+}
+
+.chat-message .message-content {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 15px;
+    max-width: 80%;
+}
+
+.chat-message.user .message-content {
+    background-color: #484bfc; /* Warna pesan pengguna */
+    color: #fff;
+}
+
+.chat-message.bot .message-content {
+    background-color: #f1f0f0; /* Warna pesan bot */
+    color: #333333;
+}
+
+/* Tombol Kirim */
+#send-button:hover {
+    background-color: #015a10; /* Warna saat hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Fokus pada Input Chat */
+#chat-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 130, 153, 0.5);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+

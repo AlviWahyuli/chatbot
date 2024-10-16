@@ -1,0 +1,52 @@
+/* Styling untuk Section 3 */
+.service-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Atur margin bottom untuk kolom */
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* Styling untuk tombol */
+.btn-success {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Styling untuk service box agar rata di semua kolom */
+.service-box {
+    border-radius: 8px;
+    min-height: 200px; /* Atur tinggi minimum agar semua kolom seragam */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-box i {
+    margin-bottom: 20px;
+}
+
+/* Hover effect */
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Tombol */
+.btn-success {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    border: none;
+}

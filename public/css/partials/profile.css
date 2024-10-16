@@ -1,0 +1,43 @@
+/* Section Tentang Kami */
+#tentang-kami {
+    background-color: #f8f9fa; /* Warna latar belakang yang lembut */
+    min-height: 60vh; /* Mengisi seluruh tinggi viewport */
+}
+
+#tentang-kami h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+#tentang-kami p {
+    color: #666;
+    font-size: 16px;
+}
+
+#tentang-kami .btn-secondary {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#tentang-kami .btn-secondary:hover {
+    background-color: #b3b3b3;
+    color: white;
+}
+
+/* Icons */
+#tentang-kami .icon {
+    color: #333;
+}
+
+#tentang-kami h5 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tentang-kami p {
+    color: #555;
+}
+

@@ -1,0 +1,15 @@
+/* Styling Global (Opsional) */
+body {
+    padding-top: 56px; /* Untuk navbar fixed jika diperlukan */
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Animasi Fade-In untuk Seluruh Halaman */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan shadow */
+}
+
